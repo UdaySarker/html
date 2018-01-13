@@ -28,11 +28,26 @@ body{
   padding: 5px 5px;
   margin-top: 5px;
 }
+#navigation ul li:hover{
+  background-color: #afab66;
+  border-radius: 5px;
+  border: 1px solid black;
+}
 #navigation ul li a{
   text-decoration: none;
   color: white;
-  background-color: #afab66;
 }
-#navigation ul li a:hover{
-  color: blue;
+.content{}
+.content h2{
+  border-bottom: 1px dashed black;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.content img{
+  width: 80px;
+  float: left;
+  margin-right: 10px;
+}
+#content p{
+  text-align: justify;
 }
