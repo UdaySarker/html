@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+#container{
+  width: 850px;
+  margin: 50px auto;
+}
+#header{
+  height: 90px;
+  background-color: grey;
+}
+#navigation{
+  background-color: #afab66;
+  height: 50px;
+}
+#navigation ul{
+
+}
+#navigation ul li{
+  display: block;
+  float: left;
+  list-style: none;
+  padding: 5px 5px;
+  margin-top: 5px;
+}
+#navigation ul li a{
+  text-decoration: none;
+  color: white;
+  background-color: #afab66;
+}
+#navigation ul li a:hover{
+  color: blue;
+}
